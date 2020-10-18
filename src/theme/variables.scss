@@ -30,7 +30,8 @@ $red:             #cb3d4d;
 $orange:          #f98012; // Accent (never text).
 $yellow:          #fbad1a; // Accent (never text).
 $purple:          #8e24aa; // Accent (never text).
-
+$pr:              #0F74B9;
+$sec:             #1C9A38;
 // Branded apps customization
 // --------------------------------------------------
 @import "bmma";
@@ -52,7 +53,7 @@ $orange-light:    lighten($orange, 10%) !default;
 $yellow-light:    mix($yellow, white, 20%) !default;
 $yellow-dark:     mix($yellow, black, 40%) !default;
 
-$core-color:          $orange !default;
+$core-color:          $pr !default;
 $core-color-light:    lighten($core-color, 10%) !default;
 $core-color-dark:     darken($core-color, 10%) !default;
 
@@ -136,9 +137,9 @@ $subdued-text-color:         $gray-darker !default;
 
 $list-background-color:      $white !default;
 
-$tabs-background:            $gray-darker !default;
+$tabs-background:            $sec !default;
 $tabs-border-color:          #b2b2b2 !default;
-$tabs-tab-color-active:      $core-color !default;
+$tabs-tab-color-active:      $white !default;
 $tabs-tab-color-inactive:    $white !default;
 $ion-tabs-badge-color:       $tabs-tab-color-active !default;
 
